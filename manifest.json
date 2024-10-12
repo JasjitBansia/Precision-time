@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Precision Time",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://www.youtube.com/"]
+    }
+  ]
+}
