@@ -1,3 +1,10 @@
+document.getElementById("logo-icon").addEventListener("click", () => {
+  setTimeout(() => {
+    if (window.location.href === "https://www.youtube.com/") {
+      window.location.reload();
+    }
+  }, 100);
+});
 function load() {
   result = document.getElementsByTagName("ytd-rich-item-renderer");
 }
