@@ -8,7 +8,7 @@ document.getElementById("logo-icon").addEventListener("click", () => {
 document
   .getElementsByClassName("ytd-yoodle-renderer")[0]
   .addEventListener("click", () => {
-    window.location.reload();
+    window.location.href = "https://www.youtube.com/";
   });
 function load() {
   result = document.getElementsByTagName("ytd-rich-item-renderer");
