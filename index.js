@@ -37,8 +37,8 @@ async function homeVideos(videoCollection) {
       videoArray.forEach(async (element) => {
         let videoID = element.getElementsByTagName("a")[1].href.split("=")[1];
         let dateElement = element.getElementsByClassName(
-          "inline-metadata-item style-scope ytd-video-meta-block"
-        )[1];
+          "yt-core-attributed-string"
+        )[3];
         if (
           dateElement.innerText.includes("year") &&
           !dateElement.innerText.includes(".")
